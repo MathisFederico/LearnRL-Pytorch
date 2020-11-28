@@ -16,14 +16,14 @@ def get_version():
 VERSION = get_version()
 
 setup(
-    name="learnrl-tensorflow",
+    name="learnrl-torch",
     version=VERSION,
     author="Mathïs Fédérico",
     author_email="mathfederico@gmail.com",
-    description="A package to learn about Reinforcement Learning in tensorflow",
+    description="A package to learn about Reinforcement Learning in pytorch",
     long_description=README,
     long_description_content_type="text/x-rst",
-    url="https://github.com/MathisFederico/LearnRL-Tensorflow",
+    url="https://github.com/MathisFederico/LearnRL-Pytorch",
     packages=find_packages(exclude=("tests", "docs")),
     include_package_data=True,
     install_requires=[
